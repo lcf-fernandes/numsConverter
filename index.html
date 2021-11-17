@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Conversor de Binário para Decimal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <!---->
+  <div class="container">
+    <h1>Conversor Numérico</h1>
+
+    <p>Decimal: <input type="text" id="decimal" oninput="converter(this.value, 10)" placeholder="Digite um Número Decimal" /></p>
+    <p>Binário: <input type="text" id="binario" oninput="converter(this.value, 2)" placeholder="Digite um Número Binário" /></p>
+    <p>Octal: <input type="text" id="octal" oninput="converter(this.value, 8)" placeholder="Digite um Número Octal" /></p>
+    <p>Hexadecimal: <input type="text" id="hexadecimal" oninput="converter(this.value, 16)" placeholder="Digite um Número Hexadecimal" /></p>
+
+  </div>
+
+  <footer>
+    <p>Created as an exercise by Leandro Fernandes</p>
+  </footer>
+
+  <script src="myscripts.js"></script>
+
+</body>
+
+</html>
